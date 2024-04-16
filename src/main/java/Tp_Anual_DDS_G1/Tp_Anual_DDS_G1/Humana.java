@@ -5,5 +5,7 @@ public class Humana implements estadoPersona{
 		
 	}
 	
-	public Formulario completarFormulario(String nombre,String Apellido,String contacto){}
+	public FormularioHumano completarFormulario(String nombre,String apellido,String contacto,Date fechaDeNacimiento,String direccion){
+		FormularioHumano formularioNuevo = new FormularioHumano(nombre,apellido,contacto,fechaDeNacimiento,direccion);
+	}
 }
