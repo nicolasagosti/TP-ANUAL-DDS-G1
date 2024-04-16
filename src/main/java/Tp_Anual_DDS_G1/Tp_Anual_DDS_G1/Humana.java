@@ -4,6 +4,12 @@ public class Humana implements estadoPersona{
 	public void colaborar() {
 		
 	}
+	public void donar(){
+
+	}
+	public void donarDinero(){
+		
+	}
 	
 	public FormularioHumano completarFormulario(String nombre,String apellido,String contacto,Date fechaDeNacimiento,String direccion){
 		FormularioHumano formularioNuevo = new FormularioHumano(nombre,apellido,contacto,fechaDeNacimiento,direccion);

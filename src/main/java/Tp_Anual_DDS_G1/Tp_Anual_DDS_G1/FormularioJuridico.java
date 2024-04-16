@@ -3,8 +3,8 @@
 //rubro y al menos un medio de contacto. En caso de poseer, puede indicar una dirección.
 package Tp_Anual_DDS_G1.Tp_Anual_DDS_G1;
 
-class FormularioJuridico {
+class FormularioJuridico implements Formulario{
     String razonSocial;
-    Tipo tipo;
+    TipoEmpresa tipo;
     String rubro;
 }

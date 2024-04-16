@@ -1,7 +1,7 @@
 package Tp_Anual_DDS_G1.Tp_Anual_DDS_G1;
 import java.util.Date;
 
-public class FormularioHumano{
+public class FormularioHumano implements Formulario{
     String nombre;
     String apellido; 
     String contacto;  // (correo electrónico, teléfono, WhatsApp).
