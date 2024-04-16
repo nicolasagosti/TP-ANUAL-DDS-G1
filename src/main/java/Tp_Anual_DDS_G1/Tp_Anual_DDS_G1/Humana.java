@@ -4,4 +4,6 @@ public class Humana implements estadoPersona{
 	public void colaborar() {
 		
 	}
+	
+	public Formulario completarFormulario(String nombre,String Apellido,String contacto){}
 }
